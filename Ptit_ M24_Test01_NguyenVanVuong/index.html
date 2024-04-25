@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="table"> 
+        <table>
+            <thead>
+                <tr><th colspan="5">Bảng điểm</th></tr>
+                <span class="infoTable">
+                    <div>
+                        <span>Players:</span>
+                        <span class="amountPlayer">3</span>
+                    </div>
+                    <div>
+                        <span>Total Points:</span>
+                        <span>0</span>
+                    </div>
+                </span>
+            </thead>
+            <tbody id="playerList" class="playerList">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5"><input id="inpNamePlayer" placeholder="Enter a player's name" type="text">
+                    <button onclick="savePlayer()">ADD PLAYER</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+   
+</body>
+<script src="index.js"></script>
+</html>

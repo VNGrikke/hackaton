@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+table{
+    width: 800px;
+    border: 1px solid transparent;
+    border-radius: 8px !important; 
+    color: white;
+}
+/* thead */
+thead{
+    background-color: rgb(113, 189, 255);
+    height: 60px;
+    width: 800px;
+    position: relative;
+    
+}
+.infoTable  {
+    display: inline;
+    position: relative;
+    z-index: 2;
+    left: 16vh;
+    top: 1vh;
+    height: 50px;
+}
+.infoTable div{
+    margin: 2.5px 0;
+    color: white;
+}
+.infoTable div .amountPlayer{
+    margin-left: 30px;
+}
+
+tbody tr{
+    height: 50px;
+    border-bottom: 1px solid gray !important; 
+    color: black;
+}
+tbody tr td:first-child{
+    width: 70px;
+    padding-left: 10px;
+}
+
+tbody tr td:nth-child(2){
+    width: 600px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+tbody tr td:nth-child(4){
+    width: 50px;
+    text-align: center;
+    padding-left: 10px;
+}
+tbody tr td button{
+    width: 50px;
+    height: 50px;
+}
+
+tfoot{
+    background-color:rgb(113, 189, 255);
+    height: 50px;
+
+}
+tfoot tr td{
+    text-align: center;
+}
+tfoot tr td input{
+    border: 1px solid transparent;
+    height: 35px;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: 650px;
+    padding-left: 10px;
+}
+tfoot tr td button{
+    padding: 8px 16px;
+    margin-left: 5px;    
+
+}
